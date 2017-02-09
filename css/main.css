@@ -1,9 +1,8 @@
+div#container{width:800px}
 div#menu 
 {background-color:#ffff99; height:200px; width:100px; float:left;}
 
-
-
-div#container
+div#swf
 {
  height:700px; 
  width:500px;
@@ -13,3 +12,5 @@ border-radius:25px;
 box-shadow: 10px 10px 5px #888888;
 float:left;
 }
+ul {margin:0;}
+li {list-style:none;}
