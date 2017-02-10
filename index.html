@@ -3,35 +3,85 @@
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <style type="text/css">
-div#container{width:500px}
-div#header {background-color:#99bbbb;}
-div#menu {background-color:#ffff99; height:200px; width:100px; float:left;}
-div#content {background-color:#EEEEEE; height:200px; width:400px; float:left;}
+div#container{width:700px}
+div#header {background-color:#99bbbb;text-align:center;}
+div#intr {background-color:#ffff99; height:480px; width:120px; float:left;position: relative;
+  left: 30px;
+  top: 20px;
+}
+div#intr2 {background-color:#ffff99; height:480px; width:120px; float:left;position: relative;
+  left: 30px;
+  top: 520px;
+}
+
+
+div#swf {background-color:#EEEEEE; height:200px; width:400px; float:left;position: relative;
+  left: 50px;
+  top: 20px;
+}
 div#footer {background-color:#99bbbb; clear:both; text-align:center;}
 h1 {margin-bottom:0;}
 h2 {margin-bottom:0; font-size:14px;}
 ul {margin:0;}
 li {list-style:none;}
+table,th,td
+{
+border:1px solid blue;
+}
+table
+  {
+  width:100%;
+  }
+
+
 </style>
 
-<title>我的Flash小游戏展示</title>
+<title>我的flash小游戏展示</title>
 </head>
 
 <body>
+ <div id="header">
+ <h1>Flash小游戏</h1>
+ </div>
+<table>
  
-<div id="container">
- 
-<div id="menu">
-<h2>Menu</h2>
-<ul>
-<li>1</li>
-<li>2</li>
-<li>3</li>
- </ul> 
-</div>
- 
-<div id="swf"><embed src="swf/WordSearch.swf" width="640" height="480"/></div>
+<tr>
+<th></th>
+<th><h1>找成语</h1></th>
 
-</div>
+</tr>
+
+<tr>
+</tr>
+<tr>
+<td>
+<p>1.点击开始游戏后，右边为提示区，左边为答题区。 </p>
+   
+<p>
+2.在答题区，鼠标左键选中起始文字，拖到完成成语后松开。</p>
+</td>
+<td>
+<embed src="swf/WordSearch.swf" width="640" height="480"/>
+</td>
+</tr>
+
+<tr>
+<th></th>
+<th><h1>海底射击</h1></th>
+
+</tr>
+
+<tr>
+</tr>
+<tr>
+<td>
+<p>1.点击开始游戏后，按方向键移动炮台。 </p>  
+<p>2.按空格键发射子弹。</p>
+</td>
+<td>
+<embed src="swf/catchFish.swf" width="640" height="480"/>
+</td>
+</tr>
+
 </body>
 </html>
